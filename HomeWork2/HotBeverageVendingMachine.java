@@ -1,7 +1,5 @@
 package HomeWork2;
 
-import java.util.List;
-
 public class HotBeverageVendingMachine extends VendingMachine {
   public Product getProduct(String name, double volume, int temperature) {
     for (Product product : products) {
