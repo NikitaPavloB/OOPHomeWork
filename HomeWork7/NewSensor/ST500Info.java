@@ -13,6 +13,14 @@ public class ST500Info {
         return 22.0;
       }
 
+      public double humidity() {
+        return 50.0; // Пример значения влажности
+      }
+
+      public double pressure() {
+        return 1013.25; // Пример значения давления
+      }
+
       public int year() {
         return LocalDateTime.now().getYear();
       }

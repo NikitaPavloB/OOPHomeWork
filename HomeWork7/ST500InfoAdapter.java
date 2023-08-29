@@ -25,12 +25,12 @@ public class ST500InfoAdapter implements MeteoSensor {
 
   @Override
   public Float getHumidity() {
-    return null; // Implement as needed
+    return (float) sensorTemperatureAdapter.humidity();
   }
 
   @Override
   public Float getPressure() {
-    return null; // Implement as needed
+    return (float) sensorTemperatureAdapter.pressure();
   }
 
   @Override

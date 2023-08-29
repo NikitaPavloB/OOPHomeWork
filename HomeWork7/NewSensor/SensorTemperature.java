@@ -5,6 +5,10 @@ public interface SensorTemperature {
 
   double temperature(); // температура датчика
 
+  double humidity(); // влажность
+
+  double pressure(); // давление
+
   int year(); // Год
 
   int day(); // День года
